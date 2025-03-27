@@ -1,0 +1,4 @@
+WebPage:
+  BaseUrl: "https://www.gallito.com.uy/inmuebles/casas"
+  ValidationUrl: "https://www.gallito.com.uy"
+  AmountOfProperties: 5
