@@ -19,4 +19,4 @@ RUN pip install -r requirements.txt && \
 COPY src src
 
 # Ejecuta bash para usar la línea de comandos
-CMD ["python3", "src/main.py"]
+CMD ["python3", "src/main_cartelera.py"]

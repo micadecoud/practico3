@@ -1,0 +1,3 @@
+WebPage:
+  BaseUrl: "https://cartelera.montevideo.com.uy/apeliculafunciones.aspx?,,PELICULAS,FILM,0,108"
+  AmountOfMovies: 10

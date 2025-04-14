@@ -259,7 +259,9 @@ class PropertyScraper:
         # Get property details
         try:
             details_elements = page.locator("div.iconoDatos + p").all()
+            self.logger.debug(details_elements)
             details = [element.text_content() for element in details_elements]
+            self.logger.debug(details)
 
             property.type = (
                 self.possible_types.get(details[0].lower(), PropertyType.OTHER)
