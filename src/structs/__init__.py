@@ -4,5 +4,12 @@ from src.structs.property import (
     PropertyDetails,
     PropertyOperation,
 )
+from src.structs.storage_type import StorageType
 
-__all__ = ["PropertyType", "Property", "PropertyDetails", "PropertyOperation"]
+__all__ = [
+    "PropertyType",
+    "Property",
+    "PropertyDetails",
+    "PropertyOperation",
+    "StorageType",
+]

@@ -1,3 +1,9 @@
 WebPage:
   BaseUrl: "https://cartelera.montevideo.com.uy/apeliculafunciones.aspx?,,PELICULAS,FILM,0,108"
   AmountOfMovies: 10
+
+Storage:
+  Type: "s3"  # Options: "local" or "s3"
+  S3:
+    Bucket: "cartelera-scrapping"
+    Region: "us-east-1"
